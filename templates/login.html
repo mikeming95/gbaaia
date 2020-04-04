@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN" ><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Login - GBAAIA</title>
+    <!--[if IE]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <![endif]-->
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'landing-8729cdd44d.css' %}">
+<body class="main" style="">
+<div class="" align="center">
+    <div  class="v_slider_block">
+        <header class="">
+          <div class="container">
+                  <div class="venew_logo">
+              <a href="#" class="logo logo_white">
+                  <img src="{% static 'logo.png' %}" class="logo_black" alt="商标">
+              </a>
+
+                  </div>
+            </div>
+          </header>
+        <div class="container main_bg">
+            <div class="row">
+                <div>
+                    <h1 class="main_page_title">
+                      <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                              Please Enter Password
+                      </font></font><br>
+                    <div class="v_subscribe">
+                        <form class="email_reg" action="/login/mainpage" method="post">
+                            <div class="firstreg_border">
+                                <input type="password" name="password" style=" color:black" class="email_reg_control autofocus" required="" name="password" placeholder="Password">
+                                <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="submit" class="pink_button_landing button_long" value="ENTER"></font></font>
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                      <br><br><br><br><br><br><br><br><br><br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
